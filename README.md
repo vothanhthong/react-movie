@@ -1,12 +1,49 @@
-# React + Vite
+React Movie Search 🎬
+=====================
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 Purpose and Scope
+---------------------
+This document provides a high-level introduction to the **React Movie Search** application — a modern web application built for discovering and searching movies with integrated trending analytics.
 
-Currently, two official plugins are available:
+The application uses data from **The Movie Database (TMDB)** API and incorporates custom analytics tracking using **Appwrite** backend services.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📄 This overview covers:
+- System's core purpose
+- High-level architecture
+- Key components
 
-## Expanding the ESLint configuration
+📚 For more:
+- See **Getting Started** for development setup
+- Refer to **Frontend Components** for UI implementation
+- Check **Backend Integration** for API details
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚙️ Tech Stack
+--------------
+- 🎯 Framework: React.js
+- ⚡ Build Tool: Vite
+- 🎨 Styling: Tailwind CSS
+- ☁️ Backend: Appwrite
+- 🎬 Movie Data: TMDB API
+
+🛠️ Environment Setup
+----------------------
+Create a new file named `.env.local` in the root of your project and add the following content:
+
+VITE_TMDB_API_KEY=
+
+VITE_APPWRITE_PROJECT_ID=
+
+VITE_APPWRITE_DATABASE_ID=
+
+VITE_APPWRITE_COLLECTION_ID=
+
+
+💻 Development
+---------------
+To install dependencies:
+
+    npm install
+
+To run the app:
+
+    npm run dev
