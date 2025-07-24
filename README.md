@@ -7,16 +7,6 @@ This document provides a high-level introduction to the **React Movie Search** a
 
 The application uses data from **The Movie Database (TMDB)** API and incorporates custom analytics tracking using **Appwrite** backend services.
 
-📄 This overview covers:
-- System's core purpose
-- High-level architecture
-- Key components
-
-📚 For more:
-- See **Getting Started** for development setup
-- Refer to **Frontend Components** for UI implementation
-- Check **Backend Integration** for API details
-
 ⚙️ Tech Stack
 --------------
 - 🎯 Framework: React.js
